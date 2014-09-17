@@ -13,9 +13,7 @@
                  [org.clojure/tools.trace "0.7.8"]
                  [clj-glob "1.0.0"]
                  ]
-  :jvm-opts ["-Xmx2g"]
-  :main ^:skip-aot core-nlp-flambo-101.core
-  :target-path "target/%s"
+  :main core-nlp-flambo-101.core
   :profiles {:dev
                 {:aot [core-nlp-flambo-101.core]}
              :uberjar
