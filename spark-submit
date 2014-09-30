@@ -1,0 +1,2 @@
+#!/bin/bash
+JAVA_HOME= spark-submit --deploy-mode cluster --master spark://192.168.88.254:7077 --name core-nlp-flambo-101 --class core_nlp_flambo_101.core /home/arnaudsj/jars/core-nlp-flambo-101-0.1.0-SNAPSHOT-standalone.jar

@@ -1,0 +1,2 @@
+#!/bin/bash
+exec "spark-class" "org.apache.spark.deploy.Client" "kill" "spark://192.168.88.254:7077" "$@"
